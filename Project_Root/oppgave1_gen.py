@@ -2,6 +2,11 @@ import random as rnd
 import cmd
 from dispatcher import dispatcher
 
+import fileinput
+
+for line in fileinput.input():
+    print(line, end="")
+
 SEED = 2010
 OPS = [
     'insert',
