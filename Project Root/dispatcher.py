@@ -1,5 +1,5 @@
 
-from operations import insert, remove, contains, size
+from MySet import insert, remove, contains, size
 
 dispatcher = {
         "insert": insert,
