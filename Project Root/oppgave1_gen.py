@@ -1,4 +1,5 @@
 import random as rnd
+import cmd
 from dispatcher import dispatcher
 
 SEED = 2010
